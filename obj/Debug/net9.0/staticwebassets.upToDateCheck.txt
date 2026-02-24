@@ -61,8 +61,6 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\css\site.css
-C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\favicon.ico
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\js\site.js
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
@@ -123,3 +121,5 @@ C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\lib\jque
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\favicon.ico
+C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\wwwroot\css\site.css

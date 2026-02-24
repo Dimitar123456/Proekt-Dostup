@@ -1,7 +1,10 @@
-﻿namespace ASP_Ticket_Center.Data
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ASP_Ticket_Center.Data
 {
     public class Event
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set;}
         public int CategoryId { get; set;}

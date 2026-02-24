@@ -1,4 +1,5 @@
 using ASP_Ticket_Center.Data;
+using ASPShopBag.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,11 +17,23 @@ namespace ASP_Ticket_Center
                 options.UseSqlServer(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            builder.Services.AddDefaultIdentity<Client>(options => options.SignIn.RequireConfirmedAccount = false)
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddRazorPages();
+            builder.Services.AddControllers(options =>
+            options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes =true);
+           
             var app = builder.Build();
+            app.PrepareDataBase().Wait();
+            
+            //if (builder.Environment.IsDevelopment())
+            //{
+                //
+//            }
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
