@@ -311,10 +311,8 @@ C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\NuGet.ProjectModel.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\NuGet.Protocol.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\NuGet.Versioning.dll
-C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\System.Formats.Asn1.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\System.Resources.Extensions.dll
-C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\System.Text.Json.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\af\Humanizer.resources.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\ar\Humanizer.resources.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\az\Humanizer.resources.dll

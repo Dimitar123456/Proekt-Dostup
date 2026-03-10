@@ -17,10 +17,10 @@
             @Html.DisplayFor(model => model.Name)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Categories)
+            @Html.DisplayNameFor(model => model.Categories.Name)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Categories.Id)
+            @Html.DisplayFor(model => model.Categories.Name)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Location)
@@ -38,7 +38,7 @@
             @Html.DisplayNameFor(model => model.ImageURL)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImageURL)
+            <img src="@Html.DisplayNameFor(model => model.ImageURL)" width="500" />
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Organizer)

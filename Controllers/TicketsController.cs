@@ -9,23 +9,23 @@ using ASP_Ticket_Center.Data;
 
 namespace ASP_Ticket_Center.Controllers
 {
-    public class EventsController : Controller
+    public class TicketsController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public EventsController(ApplicationDbContext context)
+        public TicketsController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Events
+        // GET: Tickets
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Events.Include(а => а.Categories);
+            var applicationDbContext = _context.Tickets.Include(t => t.Categories).Include(t => t.Events);
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: Events/Details/5
+        // GET: Tickets/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,43 +33,45 @@ namespace ASP_Ticket_Center.Controllers
                 return NotFound();
             }
 
-            var @event = await _context.Events
-                .Include(а => а.Categories)
+            var ticket = await _context.Tickets
+                .Include(t => t.Categories)
+                .Include(t => t.Events)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (@event == null)
+            if (ticket == null)
             {
                 return NotFound();
             }
 
-            return View(@event);
+            return View(ticket);
         }
 
-        // GET: Events/Create
+        // GET: Tickets/Create
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
+            ViewData["EventId"] = new SelectList(_context.Events, "Id", "Name");
             return View();
         }
 
-        // POST: Events/Create
+        // POST: Tickets/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name,CategoryId,Location,Description,ImageURL,Organizer,Capacity,Date,MaxPrice,MinPrice,Status")] Event @event)
+        public async Task<IActionResult> Create([Bind("Id,CategoryId,EventId,QRCode,RegisterDate,Seat,Line")] Ticket ticket)
         {
             if (ModelState.IsValid)
             {
-                @event.Last_Update = DateTime.Now;
-                _context.Add(@event);
+                _context.Add(ticket);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", @event.CategoryId);
-            return View(@event);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", ticket.CategoryId);
+            ViewData["EventId"] = new SelectList(_context.Events, "Id", "Name", ticket.EventId);
+            return View(ticket);
         }
 
-        // GET: Events/Edit/5
+        // GET: Tickets/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -77,23 +79,24 @@ namespace ASP_Ticket_Center.Controllers
                 return NotFound();
             }
 
-            var @event = await _context.Events.FindAsync(id);
-            if (@event == null)
+            var ticket = await _context.Tickets.FindAsync(id);
+            if (ticket == null)
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", @event.CategoryId);
-            return View(@event);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", ticket.CategoryId);
+            ViewData["EventId"] = new SelectList(_context.Events, "Id", "Name", ticket.EventId);
+            return View(ticket);
         }
 
-        // POST: Events/Edit/5
+        // POST: Tickets/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Location,Description,ImageURL,Organizer,Capacity,Date,MaxPrice,MinPrice,Status,Last_Update")] Event @event)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CategoryId,EventId,QRCode,RegisterDate,Seat,Line")] Ticket ticket)
         {
-            if (id != @event.Id)
+            if (id != ticket.Id)
             {
                 return NotFound();
             }
@@ -102,12 +105,12 @@ namespace ASP_Ticket_Center.Controllers
             {
                 try
                 {
-                    _context.Update(@event);
+                    _context.Update(ticket);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!EventExists(@event.Id))
+                    if (!TicketExists(ticket.Id))
                     {
                         return NotFound();
                     }
@@ -118,12 +121,12 @@ namespace ASP_Ticket_Center.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewBag.
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", @event.CategoryId);
-            return View(@event);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", ticket.CategoryId);
+            ViewData["EventId"] = new SelectList(_context.Events, "Id", "Name", ticket.EventId);
+            return View(ticket);
         }
 
-        // GET: Events/Delete/5
+        // GET: Tickets/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -131,35 +134,36 @@ namespace ASP_Ticket_Center.Controllers
                 return NotFound();
             }
 
-            var @event = await _context.Events
-                .Include(а => а.Categories)
+            var ticket = await _context.Tickets
+                .Include(t => t.Categories)
+                .Include(t => t.Events)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (@event == null)
+            if (ticket == null)
             {
                 return NotFound();
             }
 
-            return View(@event);
+            return View(ticket);
         }
 
-        // POST: Events/Delete/5
+        // POST: Tickets/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var @event = await _context.Events.FindAsync(id);
-            if (@event != null)
+            var ticket = await _context.Tickets.FindAsync(id);
+            if (ticket != null)
             {
-                _context.Events.Remove(@event);
+                _context.Tickets.Remove(ticket);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EventExists(int id)
+        private bool TicketExists(int id)
         {
-            return _context.Events.Any(e => e.Id == id);
+            return _context.Tickets.Any(e => e.Id == id);
         }
     }
 }
