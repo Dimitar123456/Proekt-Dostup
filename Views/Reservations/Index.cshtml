@@ -13,16 +13,20 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Quantity)
+                Количество
+          @*       @Html.DisplayNameFor(model => model.Quantity) *@
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.RegisterDate)
+                Дата
+                @* @Html.DisplayNameFor(model => model.RegisterDate) *@
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Clients)
+                Потребител
+                @* @Html.DisplayNameFor(model => model.Clients) *@
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Tickets)
+                Билет
+               @*  @Html.DisplayNameFor(model => model.Tickets) *@
             </th>
             <th></th>
         </tr>
@@ -37,7 +41,7 @@
                 @Html.DisplayFor(modelItem => item.RegisterDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Clients.Id)
+                @* @Html.DisplayFor(modelItem => *@ @(item.Clients.UserName+" "+item.Clients.LastName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Tickets.Id)
