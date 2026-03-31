@@ -1,11 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ASP_Ticket_Center.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using ASP_Ticket_Center.Data;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ASP_Ticket_Center.Controllers
 {
@@ -45,6 +46,7 @@ namespace ASP_Ticket_Center.Controllers
         }
 
         // GET: Events/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name");
@@ -55,6 +57,7 @@ namespace ASP_Ticket_Center.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Name,CategoryId,Location,Description,ImageURL,Organizer,Capacity,Date,MaxPrice,MinPrice,Status")] Event @event)
         {
@@ -70,6 +73,7 @@ namespace ASP_Ticket_Center.Controllers
         }
 
         // GET: Events/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -90,6 +94,7 @@ namespace ASP_Ticket_Center.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CategoryId,Location,Description,ImageURL,Organizer,Capacity,Date,MaxPrice,MinPrice,Status,Last_Update")] Event @event)
         {
@@ -124,6 +129,7 @@ namespace ASP_Ticket_Center.Controllers
         }
 
         // GET: Events/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -144,6 +150,7 @@ namespace ASP_Ticket_Center.Controllers
 
         // POST: Events/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

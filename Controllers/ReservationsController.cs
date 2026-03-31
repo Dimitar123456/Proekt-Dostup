@@ -50,6 +50,7 @@ namespace ASP_Ticket_Center.Controllers
         }
 
         // GET: Reservations/Create
+        [Authorize(Roles = "Admin")]
         public IActionResult Create()
         {
          //   ViewData["ClientId"] = new SelectList(_context.Users, "Id", "Id");
@@ -61,6 +62,7 @@ namespace ASP_Ticket_Center.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("TicketId,Quantity")] Reservation reservation)
         {
@@ -78,6 +80,7 @@ namespace ASP_Ticket_Center.Controllers
         }
 
         // GET: Reservations/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -97,7 +100,8 @@ namespace ASP_Ticket_Center.Controllers
 
         // POST: Reservations/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,ClientId,TicketId,Quantity,RegisterDate")] Reservation reservation)
@@ -134,6 +138,7 @@ namespace ASP_Ticket_Center.Controllers
         }
 
         // GET: Reservations/Delete/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -155,6 +160,7 @@ namespace ASP_Ticket_Center.Controllers
 
         // POST: Reservations/Delete/5
         [HttpPost, ActionName("Delete")]
+        [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
