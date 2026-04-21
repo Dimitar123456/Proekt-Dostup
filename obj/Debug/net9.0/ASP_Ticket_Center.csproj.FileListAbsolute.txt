@@ -203,7 +203,6 @@ C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
-C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\irhvmhm5yu-b9sayid5wm.gz
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\l56f9nniga-61n19gt1b8.gz
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\4121quy3pw-xtxxf3hu2r.gz
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\20cz8gm9h5-bqjiyaj88i.gz
@@ -441,3 +440,4 @@ C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\irhvmhm5yu-snc42su6wa.gz

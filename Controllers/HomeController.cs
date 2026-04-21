@@ -1,6 +1,7 @@
-using System.Diagnostics;
 using ASP_Ticket_Center.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace ASP_Ticket_Center.Controllers
 {
@@ -20,6 +21,12 @@ namespace ASP_Ticket_Center.Controllers
 
         public IActionResult Privacy()
         {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+           
+            
             return View();
         }
 

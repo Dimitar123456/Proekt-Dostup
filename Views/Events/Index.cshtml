@@ -4,67 +4,65 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="text-center mb-4">Събития</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<p class="text-center">
+     @if (User.IsInRole("Admin"))
+            {
+    <a class="btn btn-primary" asp-action="Create">+ Създай ново събитие</a>
+            }
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Име на продукт
-       @*          @Html.DisplayNameFor(model => model.Name) *@
-            </th>
-            <th>
-                Категория
-             @*    @Html.DisplayNameFor(model => model.Categories) *@
-            </th>
-            <th>
-                Местоположение
-               @*  @Html.DisplayNameFor(model => model.Location) *@
-            </th>
-            <th>
-                Описание
-              @*   @Html.DisplayNameFor(model => model.Description) *@
-            </th>
-            <th>
-                Снимка
-             @*    @Html.DisplayNameFor(model => model.ImageURL) *@
-            </th>
-            <th>
-                Организатор
-              @*   @Html.DisplayNameFor(model => model.Organizer) *@
-            </th>
-            <th>
-                Наличност на билети
-             @*    @Html.DisplayNameFor(model => model.Capacity) *@
-            </th>
-            <th>
-                Дата
-@*                 @Html.DisplayNameFor(model => model.Date)
- *@            </th>
-            <th>
-                Цена
-                @* @Html.DisplayNameFor(model => model.MaxPrice) *@
-            </th>
-            <th>
-                Най-ниска цена
-               @*  @Html.DisplayNameFor(model => model.MinPrice) *@
-            </th>
-            <th>
-                Статус
-               @*  @Html.DisplayNameFor(model => model.Status) *@
-            </th>
-            <th>
-                Последно обновен 
-              @*   @Html.DisplayNameFor(model => model.Last_Update) *@
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
+
+<form asp-controller="Categories" asp-action="Index" method="get">
+    <select name="category">
+        <option value="">All Categories</option>
+        <option value="Music">Music</option>
+        <option value="Sports">Sports</option>
+        <option value="Art">Tech</option>
+    </select>
+
+    <input type="text" name="searchTerm" placeholder="search..." />
+
+    <button type="submit">Search</button>
+</form>
+<div class="events-grid">
+
+@foreach (var item in Model)
+{
+    <div class="event-card">
+
+        <h5>@item.Name</h5>
+
+        <img src="@item.ImageURL" class="event-image" />
+
+        <p class="text">
+            @item.Location
+        </p>
+
+        <p>
+             @item.MinPrice - @item.MaxPrice лв
+        </p>
+
+        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">
+            Details
+        </a>
+
+            @if (User.IsInRole("Admin"))
+            {
+        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary">
+            Edit
+        </a>
+
+        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">
+            Delete
+        </a>
+            }
+           
+    </div>
+}
+
+</div>
+@* @foreach (var item in Model) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
@@ -80,7 +78,7 @@
             </td>
             <td>
                 @* @Html.DisplayFor(modelItem => item.ImageURL) *@
-                    <img src="@item.ImageURL" width="50"/>
+    @*                 <img src="@item.ImageURL" width="50"/>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Organizer)
@@ -109,6 +107,6 @@
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>
-}
+} *@
     </tbody>
 </table>
