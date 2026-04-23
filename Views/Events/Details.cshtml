@@ -101,7 +101,13 @@
         @Html.DisplayFor(model => model.Status)
     }
 </div>
+<a asp-action="Buy" asp-route-id="@Model?.Id" class="btn btn-primary">
+    Купи билет
+</a>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> 
+     @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+    }
     <a asp-action="Index">Back to List</a>
 </div>

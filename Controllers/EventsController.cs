@@ -25,7 +25,16 @@ namespace ASP_Ticket_Center.Controllers
             var applicationDbContext = _context.Events.Include(а => а.Categories);
             return View(await applicationDbContext.ToListAsync());
         }
+        public IActionResult Buy(int id)
+        {
+            var ev = _context.Events.FirstOrDefault(e => e.Id == id);
+            if (ev == null)
+            {
+                return NotFound();
+            }
 
+            return View(ev);
+        }
         // GET: Events/Details/5
         public async Task<IActionResult> Details(int? id)
         {

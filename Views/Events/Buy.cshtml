@@ -1,0 +1,41 @@
+﻿
+@model ASP_Ticket_Center.Data.Event
+
+@{
+    ViewData["Title"] = "Buy Ticket";
+}
+
+<h1>Купуване на билет</h1>
+
+<div class="card" style="width: 30rem;">
+    <img src="@Model.ImageURL" class="card-img-top" alt="Event Image">
+
+    <div class="card-body">
+        <h4>@Model.Name</h4>
+        <p><strong>Локация:</strong> @Model.Location</p>
+        <p><strong>Дата:</strong> @Model.Date</p>
+        <p><strong>Цена:</strong> @Model.MinPrice - @Model.MaxPrice лв.</p>
+    </div>
+</div>
+
+<hr />
+
+<form asp-action="Buy" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+
+    <div class="form-group">
+        <label>Брой билети</label>
+        <input type="number" name="quantity" value="1" min="1" max="@Model.Capacity" class="form-control" />
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-success">
+        Потвърди покупката
+    </button>
+</form>
+
+<br />
+
+<a asp-action="Index" class="btn btn-secondary">Назад</a>
+
