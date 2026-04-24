@@ -33,9 +33,12 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
+                        @if (User.IsInRole("Admin")|| User.IsInRole("User")) 
+                                    {
                         <li class="nav-item-Reservation">
                             <a class="nav-link" asp-controller="Reservations" asp-action="Index">Reservations</a>
-                        </li>
+                            </li>
+                        }
                     </ul>
 
                     <partial name="_LoginPartial" />
