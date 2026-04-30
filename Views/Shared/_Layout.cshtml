@@ -4,62 +4,108 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ASP_Ticket_Center</title>
-    <script type="importmap"></script>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ASP_Ticket_Center.styles.css" asp-append-version="true" />
+
+    <style>
+        body {
+            background: #f5f7fb;
+        }
+
+        .navbar {
+            background: #1f2a44;
+        }
+
+        .nav-link {
+            color: rgba(255,255,255,0.85) !important;
+            transition: 0.2s;
+        }
+
+            .nav-link:hover {
+                color: #ffffff !important;
+                transform: translateY(-1px);
+            }
+
+        main {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+        }
+    </style>
 </head>
+
 <body>
+
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-dark shadow-sm">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Достъп</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+
+                <a class="navbar-brand text-white fw-semibold"
+                   asp-controller="Home"
+                   asp-action="Index">
+                    🎟 Ticket Center
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                   
+
+                    <!-- ЛЯВО МЕНЮ -->
                     <ul class="navbar-nav flex-grow-1">
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                     @*    <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li> *@
+
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Events" asp-action="Index">Popular</a>
                         </li>
+
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
-                        @if (User.IsInRole("Admin")|| User.IsInRole("User")) 
-                                    {
-                        <li class="nav-item-Reservation">
-                            <a class="nav-link" asp-controller="Reservations" asp-action="Index">Reservations</a>
-                            </li>
-                        }
+
                     </ul>
 
+                    <!-- ДЯСНО МЕНЮ -->
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" asp-controller="Reservations" asp-action="Index">
+                                    Reservations
+                                </a>
+                            </li>
+                        </ul>
+                    }
+
                     <partial name="_LoginPartial" />
+
                 </div>
+
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+
+    <div class="container mt-4">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - Достъп - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <footer class="text-center text-muted py-3">
+        &copy; 2026 - ASP Ticket Center
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

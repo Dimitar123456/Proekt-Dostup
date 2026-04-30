@@ -12,13 +12,21 @@
     <a class="btn btn-primary" asp-action="Create">+ Създай ново събитие</a>
             }
 </p>
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["Success"]
+    </div>
+}
+<form asp-controller="Events" asp-action="Index" method="get">
 
-<form asp-controller="Categories" asp-action="Index" method="get">
-    <select name="category">
+    <select name="categoryId">
         <option value="">All Categories</option>
-        <option value="Music">Music</option>
-        <option value="Sports">Sports</option>
-        <option value="Art">Tech</option>
+
+        @foreach (var c in ViewBag.Categories)
+        {
+            <option value="@c.Id">@c.Name</option>
+        }
     </select>
 
     <input type="text" name="searchTerm" placeholder="search..." />

@@ -1,5 +1,4 @@
-﻿
-@model ASP_Ticket_Center.Data.Event
+﻿@model ASP_Ticket_Center.Data.Event
 
 @{
     ViewData["Title"] = "Buy Ticket";
@@ -19,8 +18,13 @@
 </div>
 
 <hr />
-
-<form asp-action="Index" method="post">
+@* @if (TempData["Success"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["Success"]
+    </div>
+} *@
+<form asp-action="Buy" method="post">
     <input type="hidden" name="id" value="@Model.Id" />
 
     <div class="form-group">
@@ -29,7 +33,7 @@
     </div>
 
     <br />
-    
+
     <button type="submit" class="btn btn-success">
         Потвърди покупката
     </button>
@@ -38,4 +42,3 @@
 <br />
 
 <a asp-action="Index" class="btn btn-secondary">Назад</a>
-

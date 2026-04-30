@@ -1,11 +1,13 @@
 ﻿using ASP_Ticket_Center.Data;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace ASP_Ticket_Center.Controllers
@@ -20,11 +22,25 @@ namespace ASP_Ticket_Center.Controllers
         }
 
         // GET: Events
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? categoryId, string searchTerm)
         {
-            var applicationDbContext = _context.Events.Include(а => а.Categories);
-            return View(await applicationDbContext.ToListAsync());
+            var events = _context.Events.AsQueryable();
+
+            if (categoryId.HasValue)
+            {
+                events = events.Where(e => e.CategoryId == categoryId.Value);
+            }
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                events = events.Where(e => e.Name.Contains(searchTerm));
+            }
+
+            ViewBag.Categories = _context.Categories.ToList();
+
+            return View(await events.ToListAsync());
         }
+
         public IActionResult Buy(int id)
         {
             var ev = _context.Events.FirstOrDefault(e => e.Id == id);
@@ -35,6 +51,125 @@ namespace ASP_Ticket_Center.Controllers
 
             return View(ev);
         }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> Buy(int id, int quantity)
+        {
+            var ev = await _context.Events.FindAsync(id);
+            if (ev == null) return NotFound();
+
+            if (quantity <= 0)
+            {
+                ModelState.AddModelError(nameof(quantity), "Невалидно количество.");
+                return View(ev);
+            }
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userId)) return Challenge();
+
+            await _context.Entry(ev).ReloadAsync();
+            if (quantity > ev.Capacity)
+            {
+                ModelState.AddModelError(nameof(quantity), "Няма достатъчно налични билети.");
+                return View(ev);
+            }
+
+            // Create one Ticket + Reservation per unit (keeps FK integrity)
+            var now = DateTime.UtcNow;
+            for (var i = 0; i < quantity; i++)
+            {
+                var ticket = new Ticket
+                {
+                    EventId = ev.Id,
+                    CategoryId = ev.CategoryId,
+                    QRCode = Guid.NewGuid().ToString(),
+                    RegisterDate = now,
+                    Seat = string.Empty, // DB column not-null — provide value or make nullable in model+migration
+                    Line = string.Empty
+                };
+
+                var reservation = new Reservation
+                {
+                    ClientId = userId,
+                    Quantity = 1,
+                    RegisterDate = now,
+                    Tickets = ticket // link via navigation so EF inserts Ticket then Reservation correctly
+                };
+
+                _context.Tickets.Add(ticket);
+                _context.Reservations.Add(reservation);
+            }
+
+            ev.Capacity -= quantity;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                ModelState.AddModelError(string.Empty, "Грешка при запис. Моля опитайте отново.");
+                return View(ev);
+            }
+
+            TempData["Success"] = "Резервацията е направена успешно.";
+            return RedirectToAction(nameof(Index));
+        }
+        //[HttpPost]
+        //public async Task<IActionResult> Buy(int id, int quantity)
+        //{
+        //    var ev = await _context.Events.FindAsync(id);
+        //    if (ev == null)
+        //        return NotFound();
+
+        //    if (quantity <= 0)
+        //    {
+        //        ModelState.AddModelError(nameof(quantity), "Невалидно количество.");
+        //        return View(ev);
+        //    }
+
+        //    var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        //    if (string.IsNullOrEmpty(userId))
+        //    {
+        //        // Challenge will redirect to the login page when using cookie/auth schemes
+        //        return Challenge();
+        //    }
+
+        //    // Reload the entity to reduce chances of acting on stale capacity
+        //    await _context.Entry(ev).ReloadAsync();
+
+        //    if (quantity > ev.Capacity)
+        //    {
+        //        ModelState.AddModelError(nameof(quantity), "Няма достатъчно налични билети.");
+        //        return View(ev);
+        //    }
+
+        //    ev.Capacity -= quantity;
+
+        //    var reservation = new Reservation
+        //    {
+        //        ClientId = userId,
+        //        TicketId = ev.Id,
+        //        Quantity = quantity,
+        //        RegisterDate = DateTime.Now
+        //    };
+
+        //    _context.Reservations.Add(reservation);
+
+        //    try
+        //    {
+        //        await _context.SaveChangesAsync();
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        ModelState.AddModelError(string.Empty, "Възникна конфликт при запис. Моля опитайте отново.");
+        //        return View(ev);
+        //    }
+
+        //    TempData["Success"] = "Резервацията е направена успешно.";
+        //    return RedirectToAction(nameof(Index));
+        //}
         // GET: Events/Details/5
         public async Task<IActionResult> Details(int? id)
         {

@@ -25,13 +25,16 @@ namespace ASP_Ticket_Center.Controllers
         // GET: Reservations
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Reservations.Include(r => r.Clients).Include(r => r.Tickets);
+            var userId = _userManager.GetUserId(User);
+            var applicationDbContext = _context.Reservations.Include(r => r.Clients).Include(r => r.Tickets).Where(r => r.ClientId == userId);
             return View(await applicationDbContext.ToListAsync());
+
         }
 
         // GET: Reservations/Details/5
         public async Task<IActionResult> Details(int? id)
         {
+            var userId = _userManager.GetUserId(User);
             if (id == null)
             {
                 return NotFound();
@@ -40,7 +43,7 @@ namespace ASP_Ticket_Center.Controllers
             var reservation = await _context.Reservations
                 .Include(r => r.Clients)
                 .Include(r => r.Tickets)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Id == id && m.ClientId == userId);
             if (reservation == null)
             {
                 return NotFound();
