@@ -43,6 +43,7 @@ namespace ASP_Ticket_Center.Controllers
             var reservation = await _context.Reservations
                 .Include(r => r.Clients)
                 .Include(r => r.Tickets)
+                .ThenInclude(e => e.Events)
                 .FirstOrDefaultAsync(m => m.Id == id && m.ClientId == userId);
             if (reservation == null)
             {

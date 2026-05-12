@@ -4,12 +4,106 @@
     ViewData["Title"] = "Details";
 }
 
+<!-- Заглавие на страницата -->
+<h2 class="mb-4">Reservation Details</h2>
+
+<!-- Bootstrap card за по-добър визуален вид -->
+<div class="card shadow-sm p-4">
+
+    <!-- dl = description list (ключ-стойност структура) -->
+    <dl class="row">
+
+        <!-- ===================== СЪБИТИЕ ===================== -->
+        <dt class="col-sm-3 fw-bold">
+            Събитие
+        </dt>
+        <dd class="col-sm-9">
+            <!--
+                ?. = null safety (ако Tickets или Event е null няма да гръмне)
+                Това показва името на събитието през връзката:
+                Reservation -> Ticket -> Event
+            -->
+            <span class="badge bg-primary fs-6">
+                @Model.Tickets?.Events?.Name
+            </span>
+        </dd>
+
+        <!-- ===================== БРОЙ БИЛЕТИ ===================== -->
+        <dt class="col-sm-3 fw-bold">
+            Брой билети
+        </dt>
+        <dd class="col-sm-9">
+            @Model.Quantity
+        </dd>
+
+        <!-- ===================== ДАТА НА РЕЗЕРВАЦИЯ ===================== -->
+        <dt class="col-sm-3 fw-bold">
+            Дата на резервация
+        </dt>
+        <dd class="col-sm-9">
+            <!-- Форматираме дата за по-четим вид -->
+            @Model.RegisterDate.ToString("dd.MM.yyyy HH:mm")
+        </dd>
+
+        <!-- ===================== КЛИЕНТ ===================== -->
+        <dt class="col-sm-3 fw-bold">
+            Клиент
+        </dt>
+        <dd class="col-sm-9">
+            <!-- Показваме име + фамилия -->
+            @Model.Clients?.FirstName @Model.Clients?.LastName
+        </dd>
+
+        <!-- ===================== ID НА БИЛЕТ ===================== -->
+        <dt class="col-sm-3 fw-bold">
+            Ticket ID
+        </dt>
+        <dd class="col-sm-9">
+            @Model.Tickets?.Id
+        </dd>
+
+    </dl>
+
+</div>
+
+<!-- ===================== БУТОНИ ===================== -->
+<div class="mt-3">
+
+    <!-- Ако потребителят е Admin показваме Edit -->
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Edit"
+           asp-route-id="@Model?.Id"
+           class="btn btn-warning me-2">
+            Edit
+        </a>
+    }
+
+    <!-- Връщане към списъка -->
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Back to List
+    </a>
+
+</div>
+@* @model  ASP_Ticket_Center.Data.Reservation
+
+@{
+    ViewData["Title"] = "Details";
+}
+
 <h1>Details</h1>
 
 <div>
     <h4>Reservation</h4>
     <hr />
     <dl class="row">
+        <dt class="col-sm-2">
+            Събитие
+        </dt>
+        <dd class="col-sm-10">
+            @Model.Tickets?.Events?.Name
+        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Quantity)
         </dt>
@@ -36,7 +130,11 @@
         </dd>
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div> 
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+    }
+    <a asp-action="Index" class="btn btn-primary mt-3">Back to List</a>
 </div>
+ *@
