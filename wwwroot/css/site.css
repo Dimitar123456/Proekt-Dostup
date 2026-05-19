@@ -62,3 +62,7 @@ body {
 .nav-item-Reservation{
     margin-left:auto;
 }
+.nav-pills .nav-link.active {
+    background-color: blue !important;
+    color: white !important;
+}

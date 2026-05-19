@@ -18,11 +18,7 @@
             Събитие
         </dt>
         <dd class="col-sm-9">
-            <!--
-                ?. = null safety (ако Tickets или Event е null няма да гръмне)
-                Това показва името на събитието през връзката:
-                Reservation -> Ticket -> Event
-            -->
+          
             <span class="badge bg-primary fs-6">
                 @Model.Tickets?.Events?.Name
             </span>

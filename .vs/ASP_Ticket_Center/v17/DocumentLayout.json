@@ -3,6 +3,82 @@
   "WorkspaceRootPath": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,18 +111,6 @@
       "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:views\\events\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -68,10 +132,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|c:\\users\\1212-4\\documents\\\u0434\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\asp_ticket_center\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4061198B-E52D-4772-ADC8-0939433A59CA}|ASP_Ticket_Center.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,7 +141,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -96,44 +156,209 @@
               "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Data\\Reservation.cs",
-              "RelativeDocumentMoniker": "Data\\Reservation.cs",
-              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Data\\Reservation.cs",
-              "RelativeToolTip": "Data\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T05:35:22.931Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Reservations\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Reservations\\Create.cshtml",
-              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Reservations\\Create.cshtml",
-              "RelativeToolTip": "Views\\Reservations\\Create.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-05T05:33:12.038Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Events\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Events\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Events\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Events\\Edit.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFMAAAA1AAAAAAAAAA==",
+              "Title": "TwoFactorAuthentication.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T06:58:14.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-05T05:28:28.297Z"
+              "WhenOpened": "2026-05-19T06:52:15.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T06:54:56.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-21T05:48:22.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TwoFactorAuthentication.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T06:58:14.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T06:58:24.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-05-19T05:39:48.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnableAuthenticator.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T06:56:32.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T06:54:56.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T05:05:31.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageNavPages.cs",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T06:52:15.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "PersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T06:52:15.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PersonalData.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T06:52:14.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T04:58:06.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-21T06:09:30.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -145,19 +370,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-05T05:05:31.381Z"
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T05:45:11.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Events\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Events\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Events\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Events\\Edit.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T05:28:28.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Reservations\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\Create.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Reservations\\Create.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\Create.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T05:33:12.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T05:32:32.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Data\\Reservation.cs",
+              "RelativeDocumentMoniker": "Data\\Reservation.cs",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Data\\Reservation.cs",
+              "RelativeToolTip": "Data\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T05:35:22.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T05:26:49.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -169,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Data\\Event.cs",
               "RelativeDocumentMoniker": "Data\\Event.cs",
@@ -181,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Events\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Events\\Index.cshtml",
@@ -193,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
               "Title": "ReservationsController.cs",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Controllers\\ReservationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
@@ -205,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "Controllers\\EventsController.cs",
@@ -217,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "dbo.AspNetRoles.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ASP_Ticket_Center/True/SqlTable/dbo.AspNetRoles.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ASP_Ticket_Center/True/SqlTable/dbo.AspNetRoles.sql",
@@ -226,20 +511,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Reservations\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Reservations\\Details.cshtml",
               "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Reservations\\Details.cshtml",
               "RelativeToolTip": "Views\\Reservations\\Details.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAFMAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-24T10:44:10.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T10:44:10.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 22,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Data\\Ticket.cs",
               "RelativeDocumentMoniker": "Data\\Ticket.cs",
@@ -251,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Reservations\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Reservations\\Index.cshtml",
@@ -263,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
               "Title": "Buy.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Events\\Buy.cshtml",
               "RelativeDocumentMoniker": "Views\\Events\\Buy.cshtml",
@@ -275,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Events\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Events\\Details.cshtml",
@@ -284,30 +568,6 @@
               "ViewState": "AgIAAGMAAAAAAAAAAAAuwHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-21T11:01:23.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAEkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-21T06:09:30.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\1212-4\\Documents\\\u0414\u0438\u043C\u0438\u0442\u044A\u0440 12\u0430\\ASP_Ticket_Center\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-21T05:48:22.516Z"
             }
           ]
         },

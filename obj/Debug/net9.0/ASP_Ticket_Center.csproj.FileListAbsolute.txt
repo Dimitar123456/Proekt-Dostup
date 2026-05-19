@@ -440,4 +440,4 @@ C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\irhvmhm5yu-snc42su6wa.gz
+C:\Users\1212-4\Documents\Димитър 12а\ASP_Ticket_Center\obj\Debug\net9.0\compressed\irhvmhm5yu-lh0kvpfzuv.gz
